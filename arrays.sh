@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#using arrays as data structure
+#just playing with Arrays
 #
 
 arr=()
