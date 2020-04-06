@@ -11,7 +11,7 @@ Arrays.sh is used to do following operations-
 To run this script-
 0) Open terminal.
 1) Download this script directly or clone it using-
-	git clone https://github.com/Shikhar2811/justForFun
+	git clone https://github.com/Shikhar2811/justForFun.git
 2) Navigate to the directory where the script is downloaded or cloned  by using -
 	cd <Location>
 3) Make this script executable by using - 
