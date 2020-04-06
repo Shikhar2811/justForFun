@@ -15,6 +15,6 @@ To run this script-
 2) Navigate to the directory where the script is downloaded or cloned  by using -
 	cd <Location>
 3) Make this script executable by using - 
-	chmod +x Arrays.sh
+	chmod +x arrays.sh
 4) To run the script type-
-	./Arrays.sh
+	./arrays.sh
