@@ -29,3 +29,12 @@ chmod +x arrays.sh
 ```bash
 ./arrays.sh
 ```
+
+## 2) notFacebook.java is -
+
+1) My useless attempt to mimic Facebook login screen using Java Applet(which got deprecated since JDK8).
+2) Not connected to any database , neither implemented to perform actual login.
+
+### Usage
+You will need Java 8 or earlier version of java to run this.
+In order to run this program, you can either follow [this tutorial](https://www.hubberspot.com/2012/04/program-to-demonstate-how-to-run.html?m=1) , Or use any Java IDE to simply copy paste the code and run by using "Run File" option.
