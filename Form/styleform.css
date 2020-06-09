@@ -1,0 +1,65 @@
+/*Styles the text input field*/
+input[type=text] {
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+	width: 100%;
+	font-size: 1em;
+}
+
+/*This style is applied to all the button tags*/
+button {
+	width: 30%;
+	background-color: #16a300;
+	color: white;
+	padding: 14px 20px;
+	margin: 5px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*This style is applied when the user hovers over the submit button*/
+button[type=submit]:hover {
+	background-color: #007302;
+}
+
+/*This style is applied to the reset button*/
+button[type=reset] {
+	background-color: #de0f00;
+}
+
+/*This style is applied when the user hovers over the reset button*/
+button[type=reset]:hover {
+	background-color: #850900;
+}
+
+/*This style is applied to the div element which contains the two button element*/
+.buttons {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/*Applied to all the error messages*/
+#nameError,#mobError,#billError,#modeError {
+	font-size: 0.8em;
+	color: red;
+}
+
+/*Applied to the form element*/
+#form1 {
+	margin-left: 25%;
+	margin-right: 25%; 
+	width: auto;
+}
+
+/*Styles the formfield element*/
+#formfield {
+	background-color: rgb(230,230,230);
+	border-radius: 10px;
+}

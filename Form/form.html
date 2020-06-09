@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleform.css">
+	<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+	<form autocomplete="off" id="form1" onsubmit="event.preventDefault(); validate();">
+		<fieldset id="formfield">
+			<legend><b>Payment Info</b></legend>
+			<br>
+			<label for="name">
+				<span>Name</span>
+				<input type="text" name="Name" id="name" placeholder="Enter full Name..">
+				<span id="nameError"></span>
+			</label><br><br><br>
+
+			<label for="mob">
+				<span>Mobile No.</span>
+				<input type="text" name="Mobile" id="mob" placeholder="10 digit mobile no.">
+				<span id="mobError"></span>
+			</label><br><br><br>
+			
+			<label for="amt">
+				<span>Bill Amount</span>
+				<input type="text" name="Amount" id="amt" placeholder="Enter the Amount(digits only)">
+				<span id="billError"></span>
+			</label><br><br><br>
+			
+			<label id="mode">Mode of Payment</label><br><br>
+			<input type="radio" name="Payment" value="Debit/ATM Card" id="mode1">
+			<label for="mode1">Debit/ATM Card</label>
+			<input type="radio" name="Payment" value="Net Banking" id="mode2">
+			<label for="mode2">Net Banking</label>
+			<input type="radio" name="Payment" value="Credit Card" id="mode3">
+			<label for="mode3">Credit Card</label><br>
+			<output id="modeError"></output><br>
+
+			<div class="buttons">
+				<button type="submit" name="Submit">Submit</button> 
+				<button type="reset" onclick="clearError()">Reset</button>	
+			</div>
+				
+		</fieldset>
+	</form>
+</body>
+</html>
