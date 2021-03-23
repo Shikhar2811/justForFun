@@ -20,7 +20,7 @@ To run this script-
 0) Open terminal.
 1) Download this script directly or clone it using-
 ```bash
-git clone https://github.com/Shikhar2811/UselessRepository.git
+git clone https://github.com/atTheShikhar/UselessRepository.git
 ```
 2) Navigate to the directory where the script is downloaded or cloned  by using -
 ```bash
